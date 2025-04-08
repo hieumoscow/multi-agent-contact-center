@@ -1,0 +1,19 @@
+{
+    "customers": [
+        {
+            "customerId": "CUS000",
+            "phoneNumber": "<ADD Chat User's WHATSAPP Phone Number here (not the Bot's number)>",
+            "name": "John Default",
+            "email": "john.default@example.com",
+            "policyNumbers": [
+                "POL-123",
+                "POL-456"
+            ],
+            "customerType": "Regular",
+            "preferredLanguage": "English",
+            "relationshipManager": "RM001",
+            "lastContact": "2024-10-19",
+            "notes": "Regular customer"
+        }
+    ]
+}

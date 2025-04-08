@@ -1,0 +1,9 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+azure-communication-messages
+azure-communication-identity
+python-dotenv
+aiofiles
+azure-communication-chat
+semantic-kernel==1.19.0
+pyarrow<20.0

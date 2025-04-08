@@ -1,0 +1,125 @@
+{
+    "policies": {
+        "POL-123": {
+            "policyNumber": "POL-123",
+            "type": "Life Insurance",
+            "name": "Premium Life Protection Plus",
+            "coverageAmount": 1000000,
+            "premium": {
+                "amount": 500,
+                "frequency": "monthly"
+            },
+            "benefits": [
+                "Death benefit: $1,000,000",
+                "Terminal illness benefit: 100% of sum assured",
+                "Total permanent disability: Up to $1,000,000",
+                "Critical illness coverage: $500,000",
+                "Hospital cash benefit: $200/day"
+            ],
+            "exclusions": [
+                "Pre-existing conditions",
+                "Self-inflicted injuries",
+                "War and terrorism",
+                "Hazardous activities without prior approval"
+            ],
+            "riders": [
+                {
+                    "name": "Accidental Death Benefit",
+                    "coverage": "Additional $500,000 for accidental death"
+                },
+                {
+                    "name": "Premium Waiver",
+                    "coverage": "Waiver of premiums if totally disabled"
+                }
+            ],
+            "startDate": "2024-01-01",
+            "endDate": "2054-01-01",
+            "status": "Active",
+            "waitingPeriod": "30 days",
+            "claimProcess": "Submit claim form with supporting documents to claims department"
+        },
+        "POL-456": {
+            "policyNumber": "POL-456",
+            "type": "Health Insurance",
+            "name": "Comprehensive Health Shield",
+            "coverageAmount": 500000,
+            "premium": {
+                "amount": 300,
+                "frequency": "monthly"
+            },
+            "benefits": [
+                "Hospitalization: Up to $500,000/year",
+                "Outpatient treatment: Up to $5,000/year",
+                "Specialist consultation: Up to $200/visit",
+                "Emergency overseas coverage: Up to $100,000",
+                "Dental coverage: Up to $1,000/year"
+            ],
+            "exclusions": [
+                "Cosmetic treatments",
+                "Experimental treatments",
+                "Pre-existing conditions (first 2 years)",
+                "Fertility treatments"
+            ],
+            "riders": [
+                {
+                    "name": "Critical Illness Plus",
+                    "coverage": "Additional $200,000 for 37 critical illnesses"
+                },
+                {
+                    "name": "Maternity Care",
+                    "coverage": "Up to $10,000 for pregnancy and childbirth"
+                }
+            ],
+            "startDate": "2024-06-01",
+            "endDate": "2025-06-01",
+            "status": "Active",
+            "waitingPeriod": "90 days for non-emergency treatments",
+            "claimProcess": "Cashless for panel hospitals, reimbursement for others"
+        },
+        "POL-789": {
+            "policyNumber": "POL-789",
+            "type": "Investment-Linked Insurance",
+            "name": "Wealth Accumulator Pro",
+            "coverageAmount": 250000,
+            "premium": {
+                "amount": 1000,
+                "frequency": "monthly"
+            },
+            "benefits": [
+                "Death benefit: $250,000 or account value, whichever is higher",
+                "Investment returns based on chosen funds",
+                "Partial withdrawal allowed after 3 years",
+                "Premium holiday facility",
+                "Fund switching: 4 free switches per year"
+            ],
+            "exclusions": [
+                "Market risk not covered",
+                "Self-inflicted injuries",
+                "Suicide in first year"
+            ],
+            "riders": [
+                {
+                    "name": "Critical Illness Accelerator",
+                    "coverage": "Early payout for critical illnesses"
+                }
+            ],
+            "startDate": "2024-03-15",
+            "endDate": "2054-03-15",
+            "status": "Active",
+            "waitingPeriod": "None for death benefit, 90 days for CI",
+            "investmentFunds": [
+                {
+                    "name": "Global Growth Fund",
+                    "allocation": "60%",
+                    "risk": "High"
+                },
+                {
+                    "name": "Asian Income Fund",
+                    "allocation": "40%",
+                    "risk": "Medium"
+                }
+            ],
+            "claimProcess": "Submit death certificate or medical reports for CI claims"
+        }
+    }
+}
